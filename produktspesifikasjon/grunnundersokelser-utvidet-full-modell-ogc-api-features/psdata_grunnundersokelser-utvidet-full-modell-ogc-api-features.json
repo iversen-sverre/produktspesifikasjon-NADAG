@@ -1,0 +1,158 @@
+{
+  "overview": "Denne produktspesifikasjonen er autogenerert fra metadata i Geonorge og datamodell fra SOSI modellregister og/eller OGC API Features. Noe ekstra informasjon kan ha blitt lagt til gjennom manuell prosess. Produktspesifikasjonen er i henhold til standarden: 'Geografisk informasjon - Dataproduktspesifikasjoner' (ISO19131:2022)",
+  "title": "Grunnundersøkelser - utvidet full modell OGC API - Features",
+  "format": "text/html",
+  "date": {
+    "creation": "2026-03-11",
+    "revision": "2026-03-11"
+  },
+  "contact": {
+    "organizationName": "Norges geologiske undersøkelse",
+    "logo": "https://register.geonorge.no/data/organizations/970188290_NGU_hovedlogo_svart.svg thumbnail.png",
+    "electronicMailAddress": "wmsdrift@ngu.no",
+    "role": "owner"
+  },
+  "identificationSection": {
+    "title": "Grunnundersøkelser - utvidet full modell OGC API - Features",
+    "abstract": "Tjenesten ble opprettet i 2025 og følger standarden \"OGC API - Features\". NGU har utviklet Nasjonal database for grunnundersøkelser (NADAG) med tilhørende karttjenester og muligheter for innmelding og nedlasting av data fra geotekniske undersøkelser. Fra og med 2025 er det lovfestet plikt for innmelding av komplette geotekniske grunnundersøkelser til NADAG. Eldre data har stor nytteverdi, og ønskes også meldt inn. Prosjektet for utvikling av NADAG er et samarbeid mellom NGU og etatene Statens vegvesen, Bane NOR, og Norges vassdrags- og energidirektorat (NVE). NGU samarbeider også med ulike konsulenter i utviklingen av løsningene.\n\nPunktene i NADAGs kartinnsyn representerer geotekniske borehull (GB), hvor metadata vises (f.eks. boretype, oppdragsfirma, oppdragsgiver, stedfestelse (posisjon), boret dybde, ev. dyp til berg). For noen punkter vil mer informasjon være tilgjengelig (f.eks. lenke til rapport og ev. rådata, boreprofil og måleresultater). NADAGs datamodell er basert på en datastruktur beskrevet i SOSI-standardene for Geovitenskapelige undersøkelser og Geotekniske undersøkelser. NADAG er innlemmet i listen over datasett til DOK. Visningstjenesten til NADAG har to innsynsløsninger, der «Mobilvennlig versjon» ligner de andre kartinnsynene til NGU, mens «NADAG fullversjon» har litt annet oppsett og andre verktøy.",
+    "purpose": {
+      "useCase": {
+        "name": "Bruksområde",
+        "summary": "Kan for eksempel benyttes til kart og presentasjoner og til ulike analyser og geografi. \nFra og med 2025 er det lovfestet plikt for innmelding av geotekniske grunnundersøkelser til NADAG. For at gjenbruk av data fra grunnundersøkelser skal bli mest mulig effektiv og til nytte for samfunnet, bør også data fra eldre prosjekter leveres til NADAG. Disse må gjerne også leveres mest mulig komplett, siden de da blir enklere å gjenbruke i nye prosjekter for konsulenter og andre aktører. En rask og oppdatert oversikt over utførte geotekniske undersøkelser i et gitt område vil være nyttig som verktøy i arealplanlegging, utbygging og ressursleting. Rask tilgang til data om undergrunnen vil også være avgjørende for beredskap og krisehåndtering i forbindelse med naturfare. I tillegg vil informasjon om hvor undersøkelser er utført kunne redusere behovet for nye undersøkelser, og hindre dobbeltarbeid. Ved å samle grunnundersøkelsene i Norge vil dette være et langt steg framover mot å bygge opp en forståelse av grunnforholdene i tre dimensjoner. Løsningen sørger for en lik strukturering (harmonisering) av data."
+      }
+    },
+    "uniqueId": "e84be2c5-cb0a-43c5-b702-d3f7901cd14d",
+    "restriction": {
+      "legalConstraints": {
+        "accessConstraints": "Åpne data",
+        "useConstraints": "Lisens",
+        "license": "Norsk lisens for offentlige data (NLOD)",
+        "licenseUrl": "http://data.norge.no/nlod/no/1.0"
+      }
+    },
+    "contact": [
+      {
+        "organizationName": "Norges geologiske undersøkelse",
+        "electronicMailAddress": "wmsdrift@ngu.no",
+        "role": "owner"
+      },
+      {
+        "organizationName": "Norges geologiske undersøkelse",
+        "electronicMailAddress": "metadataansvarlig@ngu.no",
+        "role": "pointOfContact"
+      },
+      {
+        "organizationName": "Norges geologiske undersøkelse",
+        "electronicMailAddress": "wmsdrift@ngu.no",
+        "role": "publisher"
+      }
+    ],
+    "maintenance": "Etter behov",
+    "extent": {
+      "geographicElement": {
+        "westBoundLongitude": "2.0",
+        "eastBoundLongitude": "33.0",
+        "southBoundLatitude": "57.0",
+        "northBoundLatitude": "72.0"
+      },
+      "temporalElement": {
+        "timePeriod": {
+          "beginPosition": "2026-03-11",
+          "endPosition": "2026-03-11"
+        }
+      }
+    },
+    "date": {
+      "creation": "2026-03-11",
+      "publication": "2026-03-11",
+      "revision": "2026-03-11"
+    }
+  },
+  "scopeSection": [
+    {
+      "specificationScope": {
+        "scopeIdentification": "Hele datasettet",
+        "level": "dataset",
+        "levelDescription": "Gjelder hele datasettet. Hvis omfang ikke er oppgitt under en overskrift, gjelder teksten for hele datasettet og alle leveranser"
+      }
+    },
+    {
+      "specificationScope": {
+        "scopeIdentification": "Grunnundersokelser_utvidet",
+        "level": "dataset",
+        "levelDescription": "OGC API-Features fra Norges geologiske undersøkelse"
+      }
+    }
+  ],
+  "dataQualitySection": {
+    "scope": {
+      "level": "service"
+    }
+  },
+  "maintenanceSection": {
+    "maintenanceAndUpdateFrequency": "Etter behov"
+  },
+  "deliverySection": [
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "unitsOfDelivery": "landsfiler",
+          "deliveryMediumName": "OGC API-Features",
+          "deliveryService": {
+            "serviceEndpoint": "https://geo.ngu.no/api/features/grunnundersokelser_utvidet",
+            "serviceProperty": {
+              "type": "OGC API-Features",
+              "value": "OGC:API-Features"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "JSON"
+          },
+          {
+            "formatName": "GeoJSON"
+          },
+          {
+            "formatName": "HTML"
+          }
+        ]
+      }
+    }
+  ],
+  "metadataSection": {
+    "metadataStandard": "ISO19115",
+    "metadataStandardVersion": "2003",
+    "metadataDate": "2026-04-30",
+    "language": "nor",
+    "contact": {
+      "organizationName": "Norges geologiske undersøkelse",
+      "logo": "https://register.geonorge.no/data/organizations/970188290_NGU_hovedlogo_svart.svg thumbnail.png",
+      "electronicMailAddress": "metadataansvarlig@ngu.no",
+      "role": "pointOfContact"
+    },
+    "metadataIdentifier": {
+      "authority": "Geonorge",
+      "code": "e84be2c5-cb0a-43c5-b702-d3f7901cd14d",
+      "codeSpace": "https://kartkatalog.geonorge.no/metadata/",
+      "metadataLinkage": "https://kartkatalog.geonorge.no/metadata/e84be2c5-cb0a-43c5-b702-d3f7901cd14d"
+    }
+  },
+  "chapterAutofill": {
+    "om_spesifikasjonen": 9,
+    "om_produktet": 214,
+    "formaal": 0,
+    "bruksomraade": 170,
+    "omfang": 30,
+    "datainnhold_og_struktur": 0,
+    "referansesystem": 0,
+    "datakvalitet": 1,
+    "datafangst_og_produksjon": 0,
+    "vedlikehold": 2,
+    "presentasjon": 0,
+    "leveranse": 10,
+    "metadata": 15,
+    "tilleggsinformasjon": 0,
+    "datamodell": 14211
+  }
+}
