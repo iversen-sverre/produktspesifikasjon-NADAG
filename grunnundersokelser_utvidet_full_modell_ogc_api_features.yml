@@ -1,0 +1,9 @@
+metadataId: e84be2c5-cb0a-43c5-b702-d3f7901cd14d
+output_directory: produktspesifikasjon
+product_slug: grunnundersokelser_utvidet_full_modell_ogc_api_features
+updated: '2026-10-08'
+scopes:
+- name: Grunnundersokelser_utvidet
+  url: https://geo.ngu.no/api/features/grunnundersokelser_utvidet
+  generator: ogc_feature_api
+  description: OGC API-Features fra Norges geologiske undersøkelse
